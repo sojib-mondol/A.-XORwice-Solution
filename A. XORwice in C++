@@ -1,0 +1,20 @@
+//Bismillah
+//Codeforces_Contest_1421_Problem_A
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a , b, t;
+    cin>>t;
+
+    while(t--)
+    {
+        cin>>a>>b;
+
+        printf("%d\n", a^b);
+    }
+    return 0;
+}
